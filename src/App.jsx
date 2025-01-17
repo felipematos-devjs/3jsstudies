@@ -1,3 +1,5 @@
+import { IoCodeSharp } from "react-icons/io5";
+
 import * as THREE from 'three'
 
 import { useState } from 'react'
@@ -15,6 +17,7 @@ function App() {
 
   return (
     <>
+
       <Leva 
         collapsed
       />
@@ -32,6 +35,13 @@ function App() {
         <color attach={'background'} args={[globals.background]}/>
         <Experience />
       </Canvas>
+      <div style={{position: "fixed", left: 0, top: 0, width: "100vw", height: "100vh", display: "flex", justifyContent: "flex-end", alignItems: "flex-end", pointerEvents: "none"}}>
+          <a href="https://github.com/felipematos-devjs/3jsstudies" target={"_blank"}>
+            <div style={{backgroundColor: "white", display: "flex", alignItems: "center", justifyContent: "center", padding: 20, borderRadius: 100,  marginRight: 20, marginBottom: 20, pointerEvents: "all"}}>
+              <IoCodeSharp size={30}/>
+            </div>
+          </a>
+      </div>
     </>
   )
 }

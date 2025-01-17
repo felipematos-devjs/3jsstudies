@@ -1,8 +1,9 @@
-# React + Vite
+# R3F studies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A little Repo with some of my studies in shaders and procedural generation
 
-Currently, two official plugins are available:
+You can change the current experience using the menu on the right
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Enjoy!
+
+- Felipe Matos

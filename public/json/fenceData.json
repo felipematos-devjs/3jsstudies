@@ -1,0 +1,50 @@
+{
+    "vertices": [
+        {
+            "position": [1,1],
+            "normal": [0,1],
+            "u": 0.0
+        },
+        {
+            "position": [1,1],
+            "normal": [1,0],
+            "u": 0.0
+        } ,
+        {
+            "position": [1,-1],
+            "normal": [1,0],
+            "u": 0.0
+        } ,
+        {
+            "position": [1,-1],
+            "normal": [0,-1],
+            "u": 0.0
+        } ,
+        {
+            "position": [-1,-1],
+            "normal": [0,-1],
+            "u": 0.0
+        } ,
+        {
+            "position": [-1,-1],
+            "normal": [-1,0],
+            "u": 0.0
+        } ,
+        {
+            "position": [-1,1],
+            "normal": [-1,0],
+            "u": 0.0
+        } ,
+        {
+            "position": [-1,1],
+            "normal": [1,1],
+            "u": 0.0
+        } 
+    ],
+    "lineIndices": [
+        7,0,
+        1,2,
+        3,4,
+        5,6
+    ]
+}
